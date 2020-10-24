@@ -2,7 +2,9 @@
 title: $patial Proposal
 author: Chua Jun Yong Shawn, Goo Yu Ya Olivia
 date: '2020-10-25'
-slug: patial-proposal
+dropCap: no
+displayInMenu: no
+displayInList: yes
 ---
 
 <link href="index_files/anchor-sections/anchor-sections.css" rel="stylesheet" />

@@ -2,7 +2,9 @@
 title: $patial Proposal
 author: Chua Jun Yong Shawn, Goo Yu Ya Olivia
 date: '2020-10-25'
-slug: patial-proposal
+dropCap: no
+displayInMenu: no
+displayInList: yes
 ---
 # Title<br />
 $patial - an application to allow users to visualise the effects of spatial autocorrelation between attributes used in determining resale price of flats
