@@ -1,6 +1,6 @@
 ---
-title: $patial Proposal
-author: Chua Jun Yong Shawn and Goo Yu Ya Olivia
+title: "$patial Proposal"
+author: "Chua Jun Yong Shawn and Goo Yu Ya Olivia"
 date: '2020-10-11'
 slug: patialproposal
 categories: []
@@ -94,24 +94,25 @@ The hedonic pricing model can be used to determine prices of property based on a
 # Application design storyboard
 
 TAB 1: Overview of Application - Introduction and description of application<br />
+![](/post/2020-10-11-patial-proposal/overview.PNG)
 
-![](/post/2020-10-11-patial-proposal/Image1.png)
+TAB 2: Feature Settings - Pick variables to be included in modelling and analysis<br />
+Tab 2.1: Feature Selection
+![](/post/2020-10-11-patial-proposal/feature select 1.PNG)
+Tab 2.2: View Data
+![](/post/2020-10-11-patial-proposal/feature select 2.PNG)
+Tab 2.3: Analysis
+![](/post/2020-10-11-patial-proposal/feature select 3.PNG)
 
-TAB 2: Settings - Pick variables to be included in models<br />
-
-![](/post/2020-10-11-patial-proposal/Image2.png)
-
-TAB 3: View - Displays dataframe of all variables selected with description of features at the bottom<br />
-
-![](/post/2020-10-11-patial-proposal/Image3.png)
-
-TAB 4: Variables - Display histograms of variables selected and option to transform variable<br />
-
-![](/post/2020-10-11-patial-proposal/Image4.png)
-
-TAB 5: Geographically Weighted Regression Model - Displays model and relevant information <br />
-
-![](/post/2020-10-11-patial-proposal/Image5.png)
+TAB 3: GWR modelling<br />
+Tab 3.1: Settings
+![](/post/2020-10-11-patial-proposal/gwr 1.PNG)
+Tab 3.2: Spatial Autocorrelation
+![](/post/2020-10-11-patial-proposal/gwr 2.PNG)
+Tab 3.3.1: Fixed GWR
+![](/post/2020-10-11-patial-proposal/gwr 3.PNG)
+Tab 3.3.2: Fixed GWR Data Output
+![](/post/2020-10-11-patial-proposal/gwr 4.PNG)
 
 # Application system architecture
 
