@@ -120,4 +120,4 @@ Tab 3.3.2: Fixed GWR Data Output<br />
 
 # Scope of work (gantt chart)
 
-![](/post/2020-10-11-patial-proposal/ganttchart.PNG)
+![](/post/2020-10-11-patial-proposal/ganttchart.PNG){width=80%}
