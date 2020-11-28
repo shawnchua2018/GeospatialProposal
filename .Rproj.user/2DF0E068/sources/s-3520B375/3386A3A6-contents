@@ -94,25 +94,25 @@ The hedonic pricing model can be used to determine prices of property based on a
 # Application design storyboard
 
 TAB 1: Overview of Application - Introduction and description of application<br />
-![](/post/2020-10-11-patial-proposal/overview.PNG)
+![](/post/2020-10-11-patial-proposal/overview.PNG){width=70%}
 
 TAB 2: Feature Settings - Pick variables to be included in modelling and analysis<br />
 Tab 2.1: Feature Selection
-![](/post/2020-10-11-patial-proposal/feature select 1.PNG)
+![](/post/2020-10-11-patial-proposal/feature select 1.PNG){width=70%}
 Tab 2.2: View Data
-![](/post/2020-10-11-patial-proposal/feature select 2.PNG)
+![](/post/2020-10-11-patial-proposal/feature select 2.PNG){width=70%}
 Tab 2.3: Analysis
-![](/post/2020-10-11-patial-proposal/feature select 3.PNG)
+![](/post/2020-10-11-patial-proposal/feature select 3.PNG){width=70%}
 
 TAB 3: GWR modelling<br />
 Tab 3.1: Settings
-![](/post/2020-10-11-patial-proposal/gwr 1.PNG)
+![](/post/2020-10-11-patial-proposal/gwr 1.PNG){width=70%}
 Tab 3.2: Spatial Autocorrelation
-![](/post/2020-10-11-patial-proposal/gwr 2.PNG)
+![](/post/2020-10-11-patial-proposal/gwr 2.PNG){width=70%}
 Tab 3.3.1: Fixed GWR
-![](/post/2020-10-11-patial-proposal/gwr 3.PNG)
+![](/post/2020-10-11-patial-proposal/gwr 3.PNG){width=70%}
 Tab 3.3.2: Fixed GWR Data Output
-![](/post/2020-10-11-patial-proposal/gwr 4.PNG)
+![](/post/2020-10-11-patial-proposal/gwr 4.PNG){width=70%}
 
 # Application system architecture
 
@@ -121,5 +121,3 @@ Tab 3.3.2: Fixed GWR Data Output
 # Scope of work (gantt chart)
 
 ![](/post/2020-10-11-patial-proposal/ganttchart.PNG)
-
-**TEST**
