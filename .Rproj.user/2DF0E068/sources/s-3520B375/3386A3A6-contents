@@ -97,22 +97,22 @@ TAB 1: Overview of Application - Introduction and description of application<br 
 ![](/post/2020-10-11-patial-proposal/overview.PNG){width=70%}
 
 TAB 2: Feature Settings - Pick variables to be included in modelling and analysis<br />
-Tab 2.1: Feature Selection
-![](/post/2020-10-11-patial-proposal/feature select 1.PNG){width=70%}
-Tab 2.2: View Data
-![](/post/2020-10-11-patial-proposal/feature select 2.PNG){width=70%}
-Tab 2.3: Analysis
-![](/post/2020-10-11-patial-proposal/feature select 3.PNG){width=70%}
+Tab 2.1: Feature Selection<br />
+![](/post/2020-10-11-patial-proposal/feature select 1.PNG){width=80%}<br />
+Tab 2.2: View Data<br />
+![](/post/2020-10-11-patial-proposal/feature select 2.PNG){width=80%}<br />
+Tab 2.3: Analysis<br />
+![](/post/2020-10-11-patial-proposal/feature select 3.PNG){width=80%}<br />
 
 TAB 3: GWR modelling<br />
-Tab 3.1: Settings
-![](/post/2020-10-11-patial-proposal/gwr 1.PNG){width=70%}
-Tab 3.2: Spatial Autocorrelation
-![](/post/2020-10-11-patial-proposal/gwr 2.PNG){width=70%}
-Tab 3.3.1: Fixed GWR
-![](/post/2020-10-11-patial-proposal/gwr 3.PNG){width=70%}
-Tab 3.3.2: Fixed GWR Data Output
-![](/post/2020-10-11-patial-proposal/gwr 4.PNG){width=70%}
+Tab 3.1: Settings<br />
+![](/post/2020-10-11-patial-proposal/gwr 1.PNG){width=80%}<br />
+Tab 3.2: Spatial Autocorrelation<br />
+![](/post/2020-10-11-patial-proposal/gwr 2.PNG){width=80%}<br />
+Tab 3.3.1: Fixed GWR<br />
+![](/post/2020-10-11-patial-proposal/gwr 3.PNG){width=80%}<br />
+Tab 3.3.2: Fixed GWR Data Output<br />
+![](/post/2020-10-11-patial-proposal/gwr 4.PNG){width=80%}<br />
 
 # Application system architecture
 
