@@ -3,22 +3,22 @@
     "path": "~/SMU/Y3S1/IS415-GEOSPATIAL/Project/ProposalBlog/GeospatialProposal/content/post/2020-10-11-patial-proposal/index.Rmd",
     "project_path": "content/post/2020-10-11-patial-proposal/index.Rmd",
     "type": "r_markdown",
-    "hash": "1483766917",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1606621192480.0,
     "source_on_save": false,
     "relative_order": 2,
     "properties": {
-        "cursorPosition": "94,61",
-        "scrollLine": "83"
+        "cursorPosition": "79,0",
+        "scrollLine": "75"
     },
     "folds": "",
-    "lastKnownWriteTime": 1606621501,
+    "lastKnownWriteTime": 1606621688,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1606621501742,
+    "last_content_update": 1606621688715,
     "read_only": false,
     "read_only_alternatives": []
 }

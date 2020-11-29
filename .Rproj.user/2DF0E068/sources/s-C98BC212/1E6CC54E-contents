@@ -78,7 +78,7 @@ Possibility of mapping both the parameter estimates and t-value together
 
 # Methodology
 
-1) Geographically weighted regression
+1) Geographically WEighted Regression
 
 As compared to simple regression models, GWR takes into account the non-stationary variables such as physical environment features and is able to model the relationship between these features and a target variable. This allows a more complex modelling that considers locality of included features.<br />
 The weighting kernels we are using for this project are: <br />
