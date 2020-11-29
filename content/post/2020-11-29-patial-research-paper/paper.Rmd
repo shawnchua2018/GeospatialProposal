@@ -1,0 +1,10 @@
+---
+title: $patial Research Paper
+author: Chua Jun Yong Shawn, Goo Yu Ya Olivia
+date: '2020-11-29'
+slug: paper
+categories: []
+tags: []
+---
+
+**Research Paper**

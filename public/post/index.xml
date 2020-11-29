@@ -8,12 +8,30 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 29 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>$patial Application</title>
+      <link>/2020/11/29/app/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/11/29/app/</guid>
+      <description>Link to our application</description>
+    </item>
+    
+    <item>
       <title>$patial Poster</title>
       <link>/2020/11/29/poster/</link>
       <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/2020/11/29/poster/</guid>
       <description>Our project poster</description>
+    </item>
+    
+    <item>
+      <title>$patial Research Paper</title>
+      <link>/2020/11/29/paper/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/11/29/paper/</guid>
+      <description>Research Paper</description>
     </item>
     
     <item>

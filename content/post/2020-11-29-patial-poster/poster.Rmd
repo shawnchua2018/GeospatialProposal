@@ -8,4 +8,4 @@ tags: []
 ---
 
 **Our project poster**
-![](/post/2020-11-29-patial-poster/$patial.jpg)
+![](/post/2020-11-29-patial-poster/$patial.jpg){width=80%}

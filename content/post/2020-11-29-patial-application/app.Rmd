@@ -1,0 +1,10 @@
+---
+title: $patial Application
+author: Chua Jun Yong Shawn, Goo Yu Ya Olivia
+date: '2020-11-29'
+slug: app
+categories: []
+tags: []
+---
+
+**Link to our application**
