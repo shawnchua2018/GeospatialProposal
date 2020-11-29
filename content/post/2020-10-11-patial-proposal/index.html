@@ -71,14 +71,21 @@ Possibility of mapping both the parameter estimates and t-value together</p>
 <div id="methodology" class="section level1">
 <h1>Methodology</h1>
 <ol style="list-style-type: decimal">
-<li><p>Regression <br />
-For our project, we plan to incorporate many different attributes that may affect one another on different degrees. Therefore, it is important to analyze the relationship between these attributes using regression models to understand how they would affect each other. One key aspect to note in regard to our project is that we would need to ensure lower levels of collinearity between attributes to prevent multicollinearity.</p></li>
-<li><p>Geographically weighted regression model <br />
-As compared to simple regression models, GWR takes into account the non-stationary variables such as physical environment features and is able to model the relationship between these features and a target variable. This allows a more complex modelling that considers locality of included features.
-<br /><br />
-There are two local weighting schemes that we consider for this project being Gaussian and Bisquare.<br /><br />
-For Gaussian weighting scheme, it assigns weights of independent features gradually where the weight decreases as the distance from the target feature increases. In this scheme the weights of independent features will never reach 0 and all inputs are regarded as a neighbouring feature. This would mean that features that are very far from the target feature will have weights that are too small and have almost no impact on regression. However, this scheme helps in avoiding local collinearity by ensuring that all neighbours are assigned a weight and increasing the chance of variation in values. This scheme is better fitted when influence of features are always present and taken into account despite how small it may be.<br /><br />
-For the Bisquare weighting scheme, it assigns weights of independent features gradually where the weight decreases as the distance from the target feature increases. However it differs from Gaussian in terms of the weights of further features. In the Bisquare weighting scheme, a maximum distance of neighbouring features is included where features beyond that distance will have a 0 weightage. Therefore, this scheme is better fitted if there is a distance limit that is to be considered.</p></li>
+<li>Geographically weighted regression</li>
+</ol>
+<p>As compared to simple regression models, GWR takes into account the non-stationary variables such as physical environment features and is able to model the relationship between these features and a target variable. This allows a more complex modelling that considers locality of included features.<br />
+The weighting kernels we are using for this project are: <br />
+-Gaussian <br />
+-Exponential<br />
+-Box-car<br />
+-Bi-square<br />
+-Tri-cube<br /></p>
+<p><img src="/post/2020-10-11-patial-proposal/weight.PNG" style="width:80.0%" /></p>
+<p>The weighting kernels functions are classified into two categories – Continuous and Discontinuous functions.Continuous kernels are Gaussian and Exponential kernels where the kernels weight all the observations with a weight that tends towards zero but never produces a zero value. The kernels that fall into the discontinuous categories are Box-car, Bi-square and Tri-cube. The Box-Car kernel handles a continuous observation in a discontinuous method and Bi-square, Tri-cube kernels produce observations that are of decreasing weight with increasing distance however the weight gives a zero value beyond the specified distance b called bandwidth as seen below.</p>
+<p><img src="/post/2020-10-11-patial-proposal/function.PNG" style="width:90.0%" /></p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Spatial Autocorrelation
+Another method used in the $patial application to ensure that the results obtained from GWR analysis is accurate is through the testing of spatial autocorrelation amongst the regression residuals. The test for spatial correlation amongst residuals is done using the Global Moran’s I to obtain the p-value in order for comparison with the alpha value which test for statistical significance and in turn determines if the residuals tend towards clustering or not.</p></li>
 <li><p>Hedonic pricing model<br />
 The hedonic pricing model can be used to determine prices of property based on all attributes taken into consideration. This model is more comprehensive as it is able to determine an estimated price based on given attributes and the degree of how much these attributes actually affect the price, which would mean that differences in the coefficients of individual attributes can give us better distinction in predicted price.</p></li>
 </ol>
